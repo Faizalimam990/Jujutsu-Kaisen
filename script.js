@@ -9,7 +9,16 @@ gsap.to('.m1',{
     startAt:{x:-100}
 }
 )
-
+gsap.to('.m2',{
+    scrollTrigger:{
+        trigger:".m2", 
+        scrub:true },
+    x:600,
+    
+    scrub: true,
+    startAt:{x:-100}
+}
+)
 gsap.to("#sukuna",{
     scrollTrigger:{
         trigger:"#sukuna",
